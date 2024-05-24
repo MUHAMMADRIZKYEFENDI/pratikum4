@@ -116,13 +116,16 @@ INSERT INTO hewan (id, name, owner, species, sex) VALUES
 ('p8', 'Whistler', 'Gwen', 'bird', NULL),
 ('p9', 'Slim', 'Benny', 'snake', 'm');
 ````
+![Screenshot (89)](https://github.com/MUHAMMADRIZKYEFENDI/pratikum4/assets/168548623/e55a8120-a2b4-4890-8838-71af222eebe6)
+
+
 # 1. Tampilkan jumlah hewan yang dimiliki setiap owner.
 ```
 SELECT owner, COUNT(*) AS jumlah_hewan
 FROM hewan
 GROUP BY owner;
 ```
-
+![Screenshot (90)](https://github.com/MUHAMMADRIZKYEFENDI/pratikum4/assets/168548623/094c7dc6-120d-4503-afec-b78abd654d39)
 
 # 2. Tampilkan jumlah hewan berdasarkan spesies
 ```
