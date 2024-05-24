@@ -16,13 +16,22 @@
 
 
 # 4. Tampilkan/hitung jumlah baris/record tabel pegawai!
+![Screenshot (84)](https://github.com/MUHAMMADRIZKYEFENDI/pratikum4/assets/168548623/502e701f-da31-4c95-8d4e-82164612f3e1)
 
 
 
 # 5. Tampilkan/hitung jumlah total gaji di tabel pegawai!
 
 
+
+![Screenshot (85)](https://github.com/MUHAMMADRIZKYEFENDI/pratikum4/assets/168548623/6aaa7ae9-41d3-4862-8596-4edcc6d7bf94)
+
 # 6. Tampilkan/hitung rata-rata gaji pegawai!
+
+![Screenshot (87)](https://github.com/MUHAMMADRIZKYEFENDI/pratikum4/assets/168548623/bd009ea9-42aa-47fe-bf7b-40847b600a61)
+
 
 
 # 8. Tampilkan gaji terbesar!
+
+![Screenshot (88)](https://github.com/MUHAMMADRIZKYEFENDI/pratikum4/assets/168548623/5165d745-3920-4bed-b197-838d460c3460)
