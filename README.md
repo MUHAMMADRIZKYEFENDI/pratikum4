@@ -1,4 +1,5 @@
 # pratikum4
+# table pegawai 
 ```
 -- Create the table 'pegawai'
 CREATE TABLE pegawai (
@@ -86,3 +87,35 @@ SELECT MIN(gaji) AS gaji_terkecil FROM pegawai;
 SELECT MAX(gaji) AS gaji_terbesar FROM pegawai;
 ```
 ![Screenshot (88)](https://github.com/MUHAMMADRIZKYEFENDI/pratikum4/assets/168548623/5165d745-3920-4bed-b197-838d460c3460)
+
+
+
+
+
+
+# table hewan
+```
+-- Create the table 'hewan'
+CREATE TABLE hewan (
+    id VARCHAR(5) PRIMARY KEY,
+    name VARCHAR(50),
+    owner VARCHAR(50),
+    species VARCHAR(50),
+    sex CHAR(1)
+);
+
+-- Insert data into the 'hewan' table
+INSERT INTO hewan (id, name, owner, species, sex) VALUES
+('p1', 'Puffball', 'Diane', 'Hamster', 'f'),
+('p2', 'Claws', 'Gwen', 'cat', 'm'),
+('p3', 'Fluffy', 'Haro 1d', 'cat', 'f'),
+('p4', 'Buffy', 'Haro 1d', 'dog', 'f'),
+('p5', 'Fang', 'Benny', 'dog', 'm'),
+('p6', 'Bowser', 'Diane', 'dog', 'm'),
+('p7', 'Chirpy', 'Gwen', 'bird', 'f'),
+('p8', 'Whistler', 'Gwen', 'bird', NULL),
+('p9', 'Slim', 'Benny', 'snake', 'm');
+````
+
+
+
