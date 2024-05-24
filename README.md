@@ -135,6 +135,24 @@ GROUP BY species;
 
 ```
 ![Screenshot (91)](https://github.com/MUHAMMADRIZKYEFENDI/pratikum4/assets/168548623/8164c7eb-665d-4928-b179-9f79829c98fd)
-
-
-
+# 3. Tampilkan jumlah hewan berdasarkan jenis kelamin
+```
+SELECT sex, COUNT(*) AS jumlah_hewan
+FROM hewan
+GROUP BY sex;
+```
+# 4. Tampilkan jumlah hewan berdasarkan spesies dan jenis kelamin
+```
+SELECT species, sex, COUNT(*) AS jumlah_hewan
+FROM hewan
+GROUP BY species, sex;
+```
+# 5. Tampilkan jumlah hewan berdasarkan spesis (cat dan dog saja) dan jenis kelamin
+```
+SELECT species, sex, COUNT(*) AS jumlah_hewan
+FROM hewan
+WHERE species IN ('cat', 'dog')
+GROUP BY species, sex;
+```
+# 6. Tampilkan jumlah hewan berdasarkan jenis kelamin yang diketahui saja
+```
