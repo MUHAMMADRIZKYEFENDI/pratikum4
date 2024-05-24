@@ -141,12 +141,16 @@ SELECT sex, COUNT(*) AS jumlah_hewan
 FROM hewan
 GROUP BY sex;
 ```
+![Screenshot (92)](https://github.com/MUHAMMADRIZKYEFENDI/pratikum4/assets/168548623/583fd8d6-abba-46be-ab4f-3fc78fc952fd)
+
 # 4. Tampilkan jumlah hewan berdasarkan spesies dan jenis kelamin
 ```
 SELECT species, sex, COUNT(*) AS jumlah_hewan
 FROM hewan
 GROUP BY species, sex;
 ```
+
+![Screenshot (93)](https://github.com/MUHAMMADRIZKYEFENDI/pratikum4/assets/168548623/6a8b9fe3-2857-40e3-a958-d58f62bdb141)
 # 5. Tampilkan jumlah hewan berdasarkan spesis (cat dan dog saja) dan jenis kelamin
 ```
 SELECT species, sex, COUNT(*) AS jumlah_hewan
@@ -154,6 +158,8 @@ FROM hewan
 WHERE species IN ('cat', 'dog')
 GROUP BY species, sex;
 ```
+
+![Screenshot (94)](https://github.com/MUHAMMADRIZKYEFENDI/pratikum4/assets/168548623/2358a170-8cdc-47e9-90ed-66909af1c369)
 # 6. Tampilkan jumlah hewan berdasarkan jenis kelamin yang diketahui saja
 ```
 SELECT sex, COUNT(*) AS jumlah_hewan
@@ -161,3 +167,21 @@ FROM hewan
 WHERE sex IS NOT NULL
 GROUP BY sex;
 ```
+
+
+![Screenshot (95)](https://github.com/MUHAMMADRIZKYEFENDI/pratikum4/assets/168548623/3063c579-4ce2-4d94-9b7b-ed9f82b2c867)
+
+# KESIMPULAN
+Berdasarkan skrip SQL dan query yang diberikan:
+
+1. Untuk tabel "pegawai":
+   - Kami membuat tabel untuk menyimpan data karyawan dengan berbagai atribut seperti ID, nama, email, tanggal kontrak, ID pekerjaan, gaji, dan tunjangan.
+   - Data dimasukkan ke dalam tabel untuk merepresentasikan berbagai karyawan dengan detail masing-masing.
+   - Query disediakan untuk mengambil informasi spesifik seperti karyawan dengan gaji selain 2.000.000 dan 1.250.000, karyawan dengan tunjangan NULL, jumlah total karyawan, total gaji, rata-rata gaji, gaji minimum, dan gaji maksimum.
+
+2. Untuk tabel "hewan":
+   - Kami membuat tabel untuk menyimpan data hewan peliharaan dengan atribut seperti ID, nama, pemilik, spesies, dan jenis kelamin.
+   - Data dimasukkan yang merepresentasikan berbagai hewan peliharaan dengan karakteristiknya.
+   - Query disediakan untuk menganalisis kepemilikan hewan peliharaan oleh pemilik, jumlah hewan peliharaan berdasarkan spesies, jumlah hewan peliharaan berdasarkan jenis kelamin, jumlah hewan peliharaan berdasarkan spesies dan jenis kelamin, jumlah hewan peliharaan berdasarkan spesies dan jenis kelamin untuk kucing dan anjing saja, dan jumlah hewan peliharaan berdasarkan jenis kelamin yang diketahui.
+
+Query SQL ini memungkinkan analisis komprehensif data karyawan dan hewan peliharaan, memfasilitasi berbagai wawasan seperti distribusi gaji, pola kepemilikan hewan peliharaan, dan lainnya.
