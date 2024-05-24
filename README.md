@@ -156,3 +156,8 @@ GROUP BY species, sex;
 ```
 # 6. Tampilkan jumlah hewan berdasarkan jenis kelamin yang diketahui saja
 ```
+SELECT sex, COUNT(*) AS jumlah_hewan
+FROM hewan
+WHERE sex IS NOT NULL
+GROUP BY sex;
+```
